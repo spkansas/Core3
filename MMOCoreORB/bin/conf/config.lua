@@ -51,26 +51,26 @@ MakeWeb = 0
 ORB = ""
 ORBPort = 44419
 
-DBHost = "127.0.0.1"
+DBHost = "192.168.1.75"
 DBPort = 3306
 DBName = "swgemu"
 DBUser = "swgemu"
-DBPass = "123456"
-DBSecret = "swgemus3cr37!" -- Change this! This value should be unique and of reasonable length.
+DBPass = "swgemu"
+DBSecret = "s2wg3434u53cr37!" -- Change this! This value should be unique and of reasonable length.
 
 LoginPort = 44453
 LoginProcessingThreads = 1
 LoginAllowedConnections = 3000
 LoginRequiredVersion = "20050408-18:00"
 
-MantisHost = "127.0.0.1"
+MantisHost = "192.168.1.75"
 MantisPort = 3306
 MantisName = "swgemu"
 MantisUser = "swgemu"
-MantisPass = "123456"
+MantisPass = "swgemu"
 MantisPrfx = "mantis_" -- The prefix for your mantis tables.
 
-MetricsHost = "localhost"
+MetricsHost = "192.168.1.91"
 MetricsPort = 8125
 MetricsPrefix = ""
 
@@ -95,20 +95,20 @@ ZonesEnabled = {
 	--"11",
 	--"character_farm",
 	--"cinco_city_test_m5",
-	--"corellia",
+	"corellia",
 	--"creature_test",
-	--"dantooine",
-	--"dathomir",
+	"dantooine",
+	"dathomir",
 	--"dungeon1",
-	--"endor",
+	"endor",
 	--"endor_asommers",
 	--"floratest",
 	--"godclient_test",
-	--"lok",
-	--"naboo",
+	"lok",
+	"naboo",
 	--"otoh_gunga",
 	--"rivertest",
-	--"rori",
+	"rori",
 	--"runtimerules",
 	--"simple",
 	--"space_09",
@@ -128,18 +128,18 @@ ZonesEnabled = {
 	--"space_tatooine_2",
 	--"space_yavin4",
 	--"taanab",
-	--"talus",
+	"talus",
 	"tatooine",
 	--"test_wearables",
 	"tutorial",
 	--"umbra",
 	--"watertabletest",
-	--"yavin4"
+	"yavin4"
 }
 
 
 -- directory of tres with live.cfg
-TrePath = "/home/swgemu/Desktop/SWGEmu"
+TrePath = "/home/swgemu/workspace/Tre"
 
 TreFiles = {
 	"default_patch.tre",
